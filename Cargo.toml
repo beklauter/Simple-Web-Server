@@ -1,0 +1,9 @@
+[package]
+name = "Simple-Web-Server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serenity = "0.12"
+tokio = { version = "1.21.2", features = ["full" ,"macros", "rt-multi-thread"] }
+hyper = { version = "0.14", features = ["server"] }
